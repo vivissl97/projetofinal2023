@@ -1,0 +1,511 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(243, 245, 245);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    
+    
+}
+
+.logo img{
+    width: 12em;
+    box-sizing: border-box;
+    
+}
+
+#hamburguer{
+    display: none;
+}
+
+.menu{
+    padding-left: 0;
+    width: 100%;
+    text-align: end;
+    
+}
+#itens_menu{ 
+    
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.lista-menu{
+    display: inline-block;
+    margin-right: .2em;
+    list-style: none;
+    background-color: rgb(197, 130, 6);
+    font-size: .9em;
+    letter-spacing: .1em;
+    color: rgb(0, 0, 0);
+    padding: .4em;
+    border-radius: 4px;
+}
+.menu li:hover{
+    background-color: rgb(233, 163, 34);
+    transform: scale(1.1);  
+    color: white;
+}
+.lista-menu a{
+    text-decoration:none ;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+   
+}
+
+main{
+  
+    display: block;
+    height: 100%;
+    width: 100%; 
+    
+}
+.secao-main{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center; 
+    display: block;
+   
+}
+.secao-main h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.842);
+    border: solid rgba(0, 0, 0, 0.596) .1em;
+    padding-top: 1.4em;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(233, 163, 34);
+}
+.secao-main h2:hover{
+    background-color: rgb(197, 130, 6);
+}
+
+.conteudo-secao{
+        display: block;
+        background-color: rgb(253, 217, 151) ;
+        font-family: sans-serif;
+        padding: 2em;
+        margin: 0;
+        height: 100%;
+        
+    }
+.conteudo-secao p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.botoes{
+    margin-bottom: 2%;
+    background-color: rgb(233, 163, 34);
+}
+
+#sobre_titulo{
+    
+    width: 100%;
+    
+    
+}
+#sobre{
+    width: 80em;  
+     display: block;
+   height: 640%;
+   width: 100%;
+    background-color: rgb(253, 217, 151);
+    
+}
+
+.fotos{
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.6em;
+}
+.fotos img{
+    width: 9.8em;
+    height: 12em;
+    margin: auto;
+    border-radius: 4px;
+}
+
+#jornada_titulo{
+   
+    width: 100%;
+}
+#jornada{
+    width: 80em;
+    display: none;
+    height: 640%;
+    width: 100%;
+    background-color: rgb(253, 217, 151);
+}
+.foto_caminho{
+    text-align: center;
+    margin: 0;
+}
+.foto_caminho img{
+    width: 10em;
+    height: 13em;
+    border-radius: 4px;
+}
+#desafios_titulo{
+    
+    width: 100%;
+}
+#desafios{
+    width: 80em;
+    display: none;
+    height: 640%;
+    width: 100%;
+    background-color: rgb(253, 217, 151);
+}
+.foto_xadrez{
+    text-align: center;
+    margin: 0;
+}
+.foto_xadrez img{
+    width: 10em;
+    height: 14em;
+    border-radius: 4px;
+}
+#conquistas_titulo{
+   
+    width: 100%;
+}
+#conquistas{
+    width: 80em;
+    display: none;
+    height: 640%;
+    width: 100%;
+    background-color: rgb(253, 217, 151);
+}
+
+.foto-trofeu{
+    text-align: center;
+    margin: 0;
+}
+.foto-trofeu img{
+    width: 10em;
+    border-radius: 4px;
+}
+
+
+#aprendizados_titulo{
+        
+    width: 100%;
+}
+#aprendizados{
+    width: 80em;
+    display: none;
+    height: 640%;
+    width: 100%;
+    background-color: rgb(253, 217, 151);
+}
+
+.lista_aprendizados{
+    display: flex;
+    text-align: left;
+}
+
+#projetos_titulo{
+   
+    width: 100%;
+}
+#projetos{
+    width: 80em;
+    display: none;
+    height: 640%;
+    width: 100%;
+    background-color: rgb(253, 217, 151);
+}
+
+.lista-projetos{
+    text-align: left;
+    display: flex;
+    
+}
+.lista-projetos ul{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.lista-projetos li{
+    margin-top: 1em;
+    margin-bottom: .6em;
+    margin-left: 0;
+}
+.lista-projetos a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 39);
+    padding: .2em;
+    border-radius: 4px;
+}
+.lista-projetos a:hover{
+    background-color: rgb(233, 163, 34);
+    color: rgb(0, 0, 0);
+}
+.lista-projetos p{
+    font-size: 1em;
+}
+.grupo1{
+    width: 20em;
+    height: 12em;
+    margin-right: .8em;
+    border-radius: 4px;
+}
+.grupo1:hover{
+    scale: 1.4;
+}
+.grupo2{
+    height: 16em;
+    border-radius: 4px;
+}
+.grupo2:hover{
+    scale: 1.4;
+}
+
+#elas_na_tech_titulo{
+    
+    width: 100%;
+}
+#elas_na_tech{
+    width: 80em;
+    display: none;
+  
+    height: 640%;
+    width: 100%;
+    background-color: rgb(253, 217, 151);
+}
+
+iframe{
+    border-radius: 8px;
+    margin-left: -1em;
+}
+.link_video{
+    display: none;
+}
+
+footer{
+    background-color: rgb(233, 163, 34);
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    border-top: solid black .1em;
+    
+}
+.redes{
+    display: inline-block;
+    width: 7em;
+    margin: 4em .4em;
+}
+.redes:hover{
+    transform: scale(1.1);
+}
+footer p{
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.1em;
+    padding-bottom: .6em;
+}
+
+@media screen and (max-width: 67.5em){
+    header{
+        display: block;
+        margin-left: auto;
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 35.46em){
+    
+    header{
+        display: block;
+        text-align: center;
+        
+    }
+    .icone-menu{
+        background-color: rgb(197, 130, 6);
+        margin: 0;
+        border-bottom: solid rgb(255, 255, 255) .1em;
+        
+    }
+    .icone-menu:hover{
+        background-color: rgb(233, 163, 34);
+        cursor: pointer;
+    }
+    #hamburguer{
+        display: inline;
+        
+    }
+   
+    .menu{
+        text-align: center;
+        
+    }
+    #itens_menu{
+        display: none;
+        margin: 0;
+    }
+    #itens_menu.show{
+        display: block;
+    }
+    
+    .lista-menu{
+
+        background-color: rgb(197, 130, 6);
+        display: block;
+        text-align: center;
+        padding: .6em;
+        margin: 0;
+        text-shadow: -1px 0px 0px;
+    }
+    .secao-main h2{
+        height: 3em;
+        padding-top: 1em;
+        background-color: rgb(41, 41, 39);
+        border: solid white .1em;
+        color: rgb(238, 236, 236);
+        color:  rgb(197, 130, 6);
+
+    }  
+    .secao-main h2:hover{
+        background-color: black;
+   
+    }
+
+    .conteudo-secao{
+        
+        font-size: .84em;
+        
+    }
+    
+    
+    .fotos img{
+        width: 8em;
+        height: 11em;
+        margin: .2em;
+       
+    }
+
+    iframe{
+       width: 360px;
+       height: 205px;
+       margin-left: -1.6em;
+    }
+    
+    footer{
+    height: 100%;
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+    }
+   .redes{        
+    
+    width: 5em;
+     margin: .8em
+    }
+       
+}
+    
+ @media screen and (max-width: 24em) {
+     main{
+        display: block;
+        text-align: center;
+                
+        }
+            
+        .secao-main h2{
+            height: 2em;
+            padding-top: .5em;
+        
+        }
+        .conteudo-secao{
+                
+            margin: .1em;
+            font-size: .75em;
+        }
+           
+        .fotos{
+            margin-top: 0;
+        }
+        .fotos img{
+            width: 7em;
+            height: 9em;
+        }
+        .foto_caminho{
+            text-align: center;
+        }
+        .foto_caminho img{
+            width: 8em;
+            height: 11em;
+        }
+        .foto_xadrez{
+            text-align: center;
+            
+        }
+        .foto_xadrez img{
+            width: 8em;
+            height: 11em;
+        }
+        .foto-trofeu{
+            text-align: center;
+        }
+        .foto-trofeu img{
+            width: 8em;
+            height: 10em;
+        }
+        .lista_aprendizados{
+            display: block;
+        }
+        .lista-projetos{
+            display: block;
+            margin-left: -3.4em;
+        }
+        .grupo1{
+            width: 10em;
+            height: 6em;
+        }
+        .grupo2{
+            height: 8em;
+        }
+        .redes{        
+            width: 4em;
+            margin: .6em
+        }
+        footer p{
+        font-size: .8em;
+       }
+       iframe{
+        display: none;
+     }
+     .link_video{
+        display: block;
+        padding-top: 4em;
+        padding-bottom: 5em;
+        margin-left: -1em;
+     }
+     .link_video a{
+        
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: solid rgb(58, 55, 50) .18em;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 800;
+        width: 8.6em;
+        padding: 1em;
+        letter-spacing: .1em;
+     }
+     .link_video a:hover{
+        background-color:  rgb(0, 0, 0);
+        color: rgb(248, 179, 30);
+        
+     }
+}
