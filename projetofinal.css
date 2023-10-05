@@ -264,7 +264,7 @@ main{
     text-decoration: none;
     font-size: 1.2em;
     color: rgb(255, 255, 255);
-    
+    border: solid white .1em;
     background-color: rgb(29, 28, 28);
     padding: .4em;
     width: 50%;
